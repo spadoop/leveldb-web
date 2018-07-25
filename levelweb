@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var levelweb = require('../lib');
+var net = require('net');
+var argv = require('optimist').argv;
+
+levelweb({
+  http: 8080,
+  tcp: 9997,
+  location: argv._[0],
+  encoding: argv.encoding,
+  keyEncoding:argv.keyEncoding
+});
