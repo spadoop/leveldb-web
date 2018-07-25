@@ -1,0 +1,24 @@
+{
+  "name": "levelweb",
+  "version": "0.1.9",
+  "description": "a simple front end for leveldb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "levelweb": "./bin/levelweb"
+  },
+  "dependencies": {
+    "event-stream": "^3.3.4",
+    "levelup": "*",
+    "mime": "^1.2.11",
+    "moment": "^2.0.0",
+    "node-uuid": "^1.4.8",
+    "optimist": "^0.3.7",
+    "ws": "^6.0.0"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
